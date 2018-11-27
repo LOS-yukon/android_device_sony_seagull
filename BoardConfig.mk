@@ -28,4 +28,3 @@ TARGET_KERNEL_CONFIG := aosp_yukon_seagull_defconfig
 BOARD_KERNEL_IMAGE_NAME := zImage
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=seagull
-BOARD_KERNEL_CMDLINE += mem=1003M
