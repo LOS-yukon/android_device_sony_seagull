@@ -38,8 +38,6 @@ on boot
     # Enable writing to brightness node under torch-light from userspace
     chown system system /sys/class/leds/torch-light/brightness
 
-    # WCNSS enable
-    write /dev/wcnss_wlan 1
 
 # OSS WLAN setup
 service macaddrsetup /system/bin/macaddrsetup /sys/devices/fb000000.qcom,wcnss-wlan/wcnss_mac_addr
